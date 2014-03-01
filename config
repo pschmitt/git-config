@@ -1,0 +1,13 @@
+[user]
+	name = Philipp Schmitt
+	email = philipp@schmitt.co
+[github]
+	user = pschmitt
+[push]
+	default = simple
+[alias]
+	up-sub = !f() { cd $1 && git checkout master && git pull && git submodule update --init --recursive; }; f
+[core]
+	autocrlf = input
+[url "git@github.com:"]
+  pushInsteadOf = "https://github.com/"
