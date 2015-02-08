@@ -12,4 +12,4 @@
 [url "git@github.com:"]
   pushInsteadOf = "https://github.com/"
 [url "git@git.lxl.io:"]
-  pushInsteadOf = "https://git.lxl.io/"
+  insteadOf = "https://git.lxl.io/"
