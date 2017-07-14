@@ -6,13 +6,7 @@
   user = pschmitt
 [push]
   default = simple
-[alias]
-  up-sub = !f() { cd $1 && git checkout master && git pull && git submodule update --init --recursive; }; f
 [core]
   autocrlf = input
 [commit]
   gpgsign = true
-[url "git@github.com:"]
-  pushInsteadOf = "https://github.com/"
-[url "git@git.lxl.io:"]
-  insteadOf = "https://git.lxl.io/"
