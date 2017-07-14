@@ -1,6 +1,7 @@
 [user]
   name = Philipp Schmitt
   email = philipp@schmitt.co
+  signingkey = DC439C47EACB17F9
 [github]
   user = pschmitt
 [push]
@@ -9,6 +10,8 @@
   up-sub = !f() { cd $1 && git checkout master && git pull && git submodule update --init --recursive; }; f
 [core]
   autocrlf = input
+[commit]
+  gpgsign = true
 [url "git@github.com:"]
   pushInsteadOf = "https://github.com/"
 [url "git@git.lxl.io:"]
